@@ -2,55 +2,78 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden; /* Ensure no scrollbar */
+    background-image: url('../img/superman-bg.png'); /* Background image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
-
-main {
-    padding: 2rem;
-}
-
-footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
+.superman-feature {
+    position: relative;
     width: 100%;
-    bottom: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure the background doesn't overflow */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color to help with text visibility */
 }
 
-nav ul {
+.superman-portrait-mask {
+    position: relative;
+    z-index: 2;
+}
+
+.superman-portrait {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9; /* Make the image slightly transparent */
+}
+
+.superman-text {
+    font-size: 10rem; /* Adjust as needed */
+    font-weight: bold;
+    color: darkred; /* Light color with low opacity for better blending */
+    position: absolute;
+    z-index: 1;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: darkcyan;
+}
+
+.button-nav {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.button-nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav ul li {
-    display: inline;
+.button-nav ul li {
+    display: inline-block;
     margin: 0 10px;
 }
 
-nav ul li a {
+.btn {
     text-decoration: none;
-    color: #4CAF50;
+    color: white;
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Feature page specific styles */
-.feature {
-    background-color: white;
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.btn:hover {
+    background-color: darkblue;
 }
