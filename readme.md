@@ -39,9 +39,6 @@ Purpose:
 The hero section is often the first thing visitors see when they land on a website. It sets the tone for the rest of the site and provides an opportunity to make a strong first impression.
 
 Key Components:
-
-Header and Footer: Consistent elements across all pages, providing navigation and essential information.
-Multiple Pages: Each page presents a different design theme or concept.
 Design Variations: Five distinct design layouts are implemented, showcasing different aesthetic choices and user experiences.
 
 Technology Used and How It Is Used:
@@ -52,7 +49,6 @@ Responsive Design: CSS media queries are implemented to ensure the website displ
 JavaScript: used in web development to create dynamic and interactive web pages. It allows developers to manipulate the DOM, handle events, validate forms, perform asynchronous operations, and create animations. JavaScript enhances user experience by enabling real-time updates, interactive user interfaces, and client-side data storage. It can be integrated with HTML and CSS to build responsive and engaging websites.
 
 Implementation Details:
-Header and Footer: These are implemented as separate HTML files (e.g., header.html, footer.html) and included in each webpage using server-side includes or JavaScript includes for ease of maintenance and consistency.
 Design Variations: Different CSS stylesheets are used to apply distinct visual themes to each page. This includes variations in color schemes, typography, layout structures, and image treatments.
 
 Overall, the project exemplifies competence in HTML and CSS by creating a multi-page website with a cohesive hero structure, diverse design choices, and engaging animations. It demonstrates practical skills in web development and showcases creativity in user interface design and front-end implementation.
