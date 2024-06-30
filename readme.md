@@ -106,9 +106,8 @@ WD-seatwork3
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Images | Used it for logo backgrund and other needed for my animation | https://www.google.com/ |
-| Icons  | Used it for web icons and social icons and possibly logo too | https://fontawesome.com/ |
+| Images | Used it for logo backgrund and other needed for feature images | https://www.google.com/ |
 | Font   | Used it for my overall website main font                     | https://fonts.google.com/ |
-| Tutorial | Used it for any needed help for understandin certain codes | https://www.youtube.com/ |
+| Tutorial | Used it for any needed help for understanding certain codes | https://www.youtube.com/ |
 | Removed BG | Used it to remove background for images | https://www.remove.bg/ |
 | W3schools | Used it for references | https://www.w3schools.com/ |
